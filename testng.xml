@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AppAutomationSuite" verbose="1">
+    <test name="Positive Scenarios">
+        <packages>
+            <package name="lk.directpay.newapp.automation.tests.positive"/>
+        </packages>
+    </test>
+    <test name="Negative Scenarios">
+        <packages>
+            <package name="lk.directpay.newapp.automation.tests.negative"/>
+        </packages>
+    </test>
+</suite>

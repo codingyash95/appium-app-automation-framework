@@ -1,0 +1,10 @@
+# Copy this file to config.properties (gitignored — never commit real values) and fill in.
+appium.server.url=http://127.0.0.1:4723
+platform.name=Android
+automation.name=UiAutomator2
+device.name=Android Emulator
+apk.name=CHANGE_ME.apk
+app.package=lk.directpay.newapp
+no.reset=true
+explicit.wait.seconds=30
+adb.exec.timeout.ms=60000

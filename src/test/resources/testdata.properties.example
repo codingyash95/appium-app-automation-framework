@@ -1,0 +1,9 @@
+# Copy this file to testdata.properties (gitignored — never commit real credentials) and fill in
+# with values for your test account. Keys are named for the fields BasePage/BaseTest and the
+# page objects you write will read via TestDataReader.get("...").
+test.username=
+test.password=
+test.otp=
+test.pin=
+test.email=
+test.mobile=
