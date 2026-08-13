@@ -1,6 +1,6 @@
-package lk.directpay.newapp.automation.pageobjects;
+package com.example.automation.pageobjects;
 
-import lk.directpay.newapp.automation.utils.ConfigReader;
+import com.example.automation.utils.ConfigReader;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

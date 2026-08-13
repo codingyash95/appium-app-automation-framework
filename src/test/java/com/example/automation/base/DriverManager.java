@@ -1,6 +1,6 @@
-package lk.directpay.newapp.automation.base;
+package com.example.automation.base;
 
-import lk.directpay.newapp.automation.utils.ConfigReader;
+import com.example.automation.utils.ConfigReader;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 

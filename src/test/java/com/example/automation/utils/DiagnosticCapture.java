@@ -1,4 +1,4 @@
-package lk.directpay.newapp.automation.utils;
+package com.example.automation.utils;
 
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.OutputType;

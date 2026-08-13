@@ -1,4 +1,4 @@
-package lk.directpay.newapp.automation.base;
+package com.example.automation.base;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;

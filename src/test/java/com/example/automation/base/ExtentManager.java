@@ -1,4 +1,4 @@
-package lk.directpay.newapp.automation.base;
+package com.example.automation.base;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -23,7 +23,8 @@ public class ExtentManager {
 
         ExtentReports extentReports = new ExtentReports();
         extentReports.attachReporter(sparkReporter);
-        extentReports.setSystemInfo("Application", "lk.directpay.newapp");
+        // TODO: replace with your app's package name once known
+        extentReports.setSystemInfo("Application", "com.example.app");
         extentReports.setSystemInfo("Platform", "Android");
         extentReports.setSystemInfo("Environment", "UAT");
         extentReports.setSystemInfo("Automation Tool", "Appium + TestNG");

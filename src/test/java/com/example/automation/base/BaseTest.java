@@ -1,7 +1,7 @@
-package lk.directpay.newapp.automation.base;
+package com.example.automation.base;
 
 import com.aventstack.extentreports.ExtentTest;
-import lk.directpay.newapp.automation.utils.DiagnosticCapture;
+import com.example.automation.utils.DiagnosticCapture;
 import io.appium.java_client.android.AndroidDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;

@@ -3,12 +3,12 @@
 <suite name="AppAutomationSuite" verbose="1">
     <test name="Positive Scenarios">
         <packages>
-            <package name="lk.directpay.newapp.automation.tests.positive"/>
+            <package name="com.example.automation.tests.positive"/>
         </packages>
     </test>
     <test name="Negative Scenarios">
         <packages>
-            <package name="lk.directpay.newapp.automation.tests.negative"/>
+            <package name="com.example.automation.tests.negative"/>
         </packages>
     </test>
 </suite>
